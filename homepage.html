@@ -1,72 +1,349 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flipkart</title>
-    <link rel="stylesheet" href="homepage.css">
-</head>
-<body>
-    <!-- upper nav bar -->
-    <div class="nav-bar1">
-        <div class="optn">
-          <span id="flipkart"><img src="ChatGPT Image May 30, 2026, 03_39_16 PM.png" alt="">Flipkart</span>
-          <span id="travel">✈️ Travel</span>
-        </div>
-        <div class="location">
-            <span id="loc">📍Location not set</span>
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <!-- upper nav bar -->
+        <div class="nav-bar1">
+          <div class="optn">
+            <span id="flipkart"
+              ><img
+                src="ChatGPT Image May 30, 2026, 03_39_16 PM.png"
+                alt=""
+              />Flipkart</span
+            >
+            <!-- <span id="travel">✈️ Travel</span> -->
+            <span id="travel"
+              ><img
+                src="https://rukminim2.flixcart.com/fk-p-flap/58/44/image/7ab4040af860941d.png?q=60"
+                alt="Travel"
+              />Travel</span
+            >
+          </div>
+          <div class="location">
+            <!-- <span id="loc">📍Location not set</span> -->
+            <span id="loc"
+              ><img src="location-dot-solid-full.svg" alt="Location" />Location
+              not set</span
+            >
             <span id="del-loc">Select delivery location ></span>
+          </div>
         </div>
-    </div>
 
-    <!-- nav bar 2- search bar, cart -->
-     <div class="nav-bar2">
-        <div class="search-bar">
-            <input type="text" placeholder="  🔍 Search for Products, Brands and More">
+        <!-- nav bar 2- search bar, cart -->
+        <div class="nav-bar2">
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="  🔍 Search for Products, Brands and More"
+            />
+          </div>
+          <div class="login-btn">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg"
+              alt=""
+            />Login
+          </div>
+          <div class="more-btn">More &#9662;</div>
+          <div class="cart">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg"
+              alt=""
+            />Cart
+          </div>
         </div>
-        <div class="login-btn"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg" alt="">Login</div>
-        <div class="more-btn">More &#9662;</div>
-        <div class="cart"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg" alt="">Cart</div>
-     </div>
 
-     <!-- nav bar 3 -->
-      <div class="nav-bar3">
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg" alt="For You"> For You
+        <!-- nav bar 3 -->
+        <div class="nav-bar3">
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg"
+              alt="For You"
+            />
+            For You
           </button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg" alt="Fashion">
-          Fashion</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg" alt="Mobiles">
-          Mobiles</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg" alt="Beauty">
-          Beauty</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg" alt="Electronics">
-          Electronics</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg" alt="Home">
-          Home</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg" alt="Appliances">
-          Appliances</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg" alt=""Toys, Bbay>
-          Toys, baby</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg" alt="Food & Health">
-          Food & Health</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg" alt="2 Wheelers">
-          2 Wheelers</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg" alt="Sports & Fitness">
-          Sports & Fitness</button>
-        <button class="btn"><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg" alt="Furniture">
-          Furniture</button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg"
+              alt="Fashion"
+            />
+            Fashion
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg"
+              alt="Mobiles"
+            />
+            Mobiles
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg"
+              alt="Beauty"
+            />
+            Beauty
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg"
+              alt="Electronics"
+            />
+            Electronics
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg"
+              alt="Home"
+            />
+            Home
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg"
+              alt="Appliances"
+            />
+            Appliances
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg"
+              alt=""
+              Toys,
+              Bbay
+            />
+            Toys, baby
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
+              alt="Food & Health"
+            />
+            Food & Health
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg"
+              alt="2 Wheelers"
+            />
+            2 Wheelers
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg"
+              alt="Sports & Fitness"
+            />
+            Sports & Fitness
+          </button>
+          <button class="btn">
+            <img
+              src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg"
+              alt="Furniture"
+            />
+            Furniture
+          </button>
+        </div>
+
+        <!-- Sale images -->
+        <div class="image">
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/0f2470e3a70ed8cf.png?q=60"
+            alt=""
+          />
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/b952c206f10c2136.png?q=60"
+            alt=""
+          />
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/35a618fb9b37efc3.png?q=60"
+            alt=""
+          />
+        </div>
+
+        <div class="ad">
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/760/1020/image/b05c1c7d7c825d66.png?q=60"
+            alt=""
+          />
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/760/1020/image/81e34fd1ad6121c5.png?q=60"
+            alt=""
+          />
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/760/1020/image/aed3d2450697e431.png?q=60"
+            alt=""
+          />
+        </div>
+        <!-- Popular Picks -->
+        <div class="img-cards">
+          <p>On everybody's list</p>
+          <div class="img-list">
+            <span>
+              <img
+                src="https://rukminim2.flixcart.com/image/612/612/xif0q/track-suit/k/2/d/xl-ic-tksupopc0091-indiclub-original-imagyufgrgzfbxgv.jpeg?q=70"
+                alt=""
+              />
+              <!-- <p>Men's Tracksuits</p> -->
+            </span>
+
+            <span>
+              <img
+                src="https://rukminim2.flixcart.com/image/612/612/xif0q/screen-guard/nano-glass/f/m/3/5-5-inch-138-vd-enterprise-original-imahjdcg65rxmyvt.jpeg?q=70"
+                alt=""
+              />
+
+              <!-- <p>New Collection</p>
+            <p>Under Rs 199</p> -->
+            </span>
+
+            <span>
+              <img
+                src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-remote-control-toy/t/p/r/remote-control-stunt-vehicle-360-rotating-rolling-radio-electric-original-imahjqsf8zdawkhf.jpeg?q=70"
+                alt=""
+              />
+              <!-- <p>New Collection</p1> -->
+              <!-- <p>Top Rated</p> -->
+            </span>
+
+            <span>
+              <img
+                src="https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/r/4/d/xxl-samaira-orange-nm-nermosa-original-imahhhsbbzggr8gj.jpeg?q=70"
+                alt=""
+              />
+              <!-- <p>Grab or Gone</p> -->
+            </span>
+          </div>
+        </div>
+
+        <!-- Shop for a Cool Summer -->
       </div>
 
-     <!-- Sale images -->
-      <div class="img">
-        <img src="" alt="">
-        <img src="" alt="">
-      </div>
-     <!-- In Demand -->
-      <div class="img-cards">
-        <div></div>
-      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <!-- TOP FOOTER -->
+        <div class="footer-top">
+          <div class="footer-left">
+            <div class="footer-column">
+              <h4>ABOUT</h4>
+              <a href="#">Contact Us</a>
+              <a href="#">About Us</a>
+              <a href="#">Careers</a>
+              <a href="#">Flipkart Stories</a>
+              <a href="#">Press</a>
+              <a href="#">Corporate Information</a>
+            </div>
 
-     <!-- Home Decor & Furnishing -->
-</body>
+            <div class="footer-column">
+              <h4>GROUP COMPANIES</h4>
+              <a href="#">Myntra</a>
+              <a href="#">Cleartrip</a>
+              <a href="#">Shopsy</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>HELP</h4>
+              <a href="#">Payments</a>
+              <a href="#">Shipping</a>
+              <a href="#">Cancellation & Returns</a>
+              <a href="#">FAQ</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>CONSUMER POLICY</h4>
+              <a href="#">Cancellation & Returns</a>
+              <a href="#">Terms Of Use</a>
+              <a href="#">Security</a>
+              <a href="#">Privacy</a>
+              <a href="#">Sitemap</a>
+              <a href="#">Grievance Redressal</a>
+              <a href="#">EPR Compliance</a>
+            </div>
+          </div>
+
+          <div class="footer-right">
+            <div class="address">
+              <h4>Mail Us:</h4>
+              <span>Flipkart Internet Private Limited</span>
+              <span>Buildings Alyssa, Begonia &</span>
+              <span>Clove Embassy Tech Village</span>
+              <span>Outer Ring Road, Bengaluru</span>
+              <span>Karnataka, India</span>
+
+              <h4 class="social-title">Social</h4>
+
+              <div class="social-icons">
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/FacebookLogo-f2f597.svg"
+                />
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/twitter-x-ea91d8.svg"
+                />
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-958b78.svg"
+                />
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-854a2c.svg"
+                />
+              </div>
+            </div>
+
+            <div class="address">
+              <h4>Registered Office Address:</h4>
+              <span>Flipkart Internet Private Limited</span>
+              <span>Buildings Alyssa, Begonia &</span>
+              <span>Clove Embassy Tech Village</span>
+              <span>Outer Ring Road, Bengaluru</span>
+              <span>Karnataka, India</span>
+              <span>CIN: U51109KA2012PTC066107</span>
+              <span>Telephone: 044-45614700</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTTOM FOOTER -->
+        <div class="footer-bottom">
+          <div class="footer-item">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-0489fc.svg"
+            />
+            <span>Become a Seller</span>
+          </div>
+
+          <div class="footer-item">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-e4b62a.svg"
+            />
+            <span>Advertise</span>
+          </div>
+
+          <div class="footer-item">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-5ddebd.svg"
+            />
+            <span>Gift Cards</span>
+          </div>
+
+          <div class="footer-item">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg"
+            />
+            <span>Help Center</span>
+          </div>
+
+          <div class="copyright">© 2007-2026 Flipkart.com</div>
+
+          <div class="payments">
+            <img
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

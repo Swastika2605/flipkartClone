@@ -210,13 +210,15 @@
     /* height: 500px; */
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 25px;
 }
 
 .img-cards p {
     background: rgb(244, 224, 1);
+    /* color: white; */
     /* height: 300px; */
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .img-list {
@@ -230,6 +232,36 @@
 }
 
 .img-cards img{
+    height: 250px;
+}
+
+.img-cards2 {
+    border: solid rgb(244, 167, 1);
+    background: rgb(244, 167, 1);
+    /* height: 500px; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img-cards2 p {
+    background: rgb(244, 167, 1);
+    /* height: 300px; */
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.img-list {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    border-radius: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.img-cards2 img{
     height: 250px;
 }
 

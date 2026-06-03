@@ -267,20 +267,21 @@
 }
 
 .footer{
-    background:#000000;
+    background:#1b1b1b;
     color:white;
     margin-top:40px;
 }
 
 .footer-top{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
+    gap: 50px;
     padding:40px 60px;
 }
 
 .footer-left{
     display:flex;
-    gap:60px;
+    gap:100px;
 }
 
 .footer-column{
@@ -305,7 +306,7 @@
 
 .footer-right{
     display:flex;
-    gap:40px;
+    gap:170px;
     border-left:1px solid #454d5e;
     padding-left:40px;
 }
@@ -357,4 +358,21 @@
 
 .payments img{
     height:18px;
+}
+
+.footer-column h4 {
+    font-size: 15px;
+}
+
+.footer-column a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address h4 {
+    font-size: 16px;
+}
+
+.address span {
+    font-size: 16px;
 }

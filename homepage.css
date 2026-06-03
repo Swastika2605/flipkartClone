@@ -178,7 +178,8 @@
 
 .image {
     margin-top: 250px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     gap: 15px;
     overflow: scroll;
